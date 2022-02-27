@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "name": "mern-stack-sample-application",
+  "version": "1.0.0",
+  "description": "sample mern stack application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MingiJ/Mern-Stack-Sample-Application.git"
+  },
+  "author": "Jeff Karanja",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MingiJ/Mern-Stack-Sample-Application/issues"
+  },
+  "homepage": "https://github.com/MingiJ/Mern-Stack-Sample-Application#readme"
+}
